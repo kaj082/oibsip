@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(imag-1.jpg);
+    height: 150vh;
+    background-position:center;
+    background-size:cover;
+}
+
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 150px;
+}
+ul li{
+display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color:orange;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition-duration: 0.6s;
+    
+    
+}
+ul li a:active{
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0)
+}
+ul li a:hover{
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0)
+}
+
+.logo p{
+    float: left;
+    font-size: 50px;
+   margin-top: 20px;
+   color:#fff;
+   margin-left: 50px;
+   border-radius: 100%;
+    
+}
+.logo p:hover{
+    color:black;
+    background-color:#fff;
+}
+.logo p b{
+    color:orange;
+}
+.logo p b:hover{
+    color: #4b0082;
+}
+.title{
+    position: absolute;
+    top:65%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: white;
+    font-size: 40px;
+}
+.title h6 i{
+    color:rgba(255,255,255,0.6);
+    font-size: 20px;
+}
+.button{
+    position: absolute;
+    top:80%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color:#fff;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: orange;
+    transition-duration: 0.6s;
+    color:black;
+}
